@@ -1,7 +1,7 @@
 # Stock-Market-Price-Prediction-Model
 The provided code is a Python script for a stock market price predictor using linear regression. It involves data visualization, exploratory data analysis, and predictions. The code provides a comprehensive analysis of stock market data, builds a linear regression model for prediction, and offers a user-friendly interface for making predictions.
 Note: The Tkinter GUI part requires user interaction and input, and it's designed to predict stock prices based on the chosen date and the number of days for predictions.
-## Data Loading and Cleaning:
+### Data Loading and Cleaning:
 Imports necessary libraries (NumPy, Pandas, Matplotlib, Seaborn). Loads stock market data from a CSV file ('INFY.NS.CSV'). Checks for data types, null values, and drops rows with null values. Converts the 'Date' column to datetime format.
 ## Univariate Analysis:
 Uses boxplots to visualize the statistical distribution of columns ('Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume'). Utilizes distribution plots to analyze the distribution of each column.
